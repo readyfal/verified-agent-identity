@@ -31,5 +31,5 @@ jobs:
         run: node scripts/createNewEthereumIdentity.js
 
       - name: Link Human to Agent
-        run: |
+        run: |{"verifierDid":"did:iden3:billions:main:2VmnvBNtpxCUbiEH3R2DNuXqPxuaBQJsG6mwU1J8PD","userProfileDid":"did:iden3:billions:main:2VvF2LaqL3zWgCT5HC2jX9dSTWVxvo6dcCwTt3vaWH","trusted":false,"tags":[]}
           node scripts/manualLinkHumanToAgent.js --challenge '{"name":"readyfal","description":"readyfal AI Agent"}' 
